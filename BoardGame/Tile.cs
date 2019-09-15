@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace BoardGame
 {
-    public class Board : IBoard
+    public class Tile : ITile
     {
-        public void MakeBoard()
-        {
-            
-        }
+        public string StringRepresentation { get; set; }
+
     }
 }

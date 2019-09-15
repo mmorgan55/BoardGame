@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace BoardGame
 {
-    public class Board : IBoard
+    public class Player : IPlayer
     {
-        public void MakeBoard()
-        {
-            
-        }
+
     }
 }
