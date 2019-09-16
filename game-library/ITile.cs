@@ -8,4 +8,5 @@ namespace game_library
     {
         string StringRepresentation { get; set; }
     }
+
 }
